@@ -1,7 +1,7 @@
 # Конвертация Pydantic в TypeScript
 
 ```bash
-python -m python_to_ts.main -i ПутьPython.py -o ПутьTypeScript.ts
+python main.py -i ПутьPython.py -o ПутьTypeScript.ts
 ```
 
 ## Пример
