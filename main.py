@@ -11,9 +11,9 @@ install(show_locals=True)
 
 @click.command()
 @click.option('inpath', "--ipath", '-i', type=click.Path(exists=True,
-              file_okay=True, dir_okay=False, readable=True))
+              file_okay=True, dir_okay=False, readable=True), help='Исходный Python файл')
 @click.option('opath', "--opath", '-o', type=click.Path(exists=True,
-              file_okay=True, dir_okay=False, writable=True))
+              file_okay=True, dir_okay=False, writable=True), help='Выходной TypeScript файл')
 def greet(inpath: str, opath: str):
     if not inpath or not opath:
         raise ValueError(f"Не передан inpath или opath")
