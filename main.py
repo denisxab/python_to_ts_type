@@ -30,7 +30,7 @@ if __name__ == '__main__':
     greet()
     # greet(
     #     [
-    #         '-i', '/media/denis/dd19b13d-bd85-46bb-8db9-5b8f6cf7a825/MyProject/pyjs/py/wbs_schema.py',
-    #         '-o', '/media/denis/dd19b13d-bd85-46bb-8db9-5b8f6cf7a825/MyProject/pyjs/ts/wbs_type.ts'
+    #         '-i', '/media/denis/dd19b13d-bd85-46bb-8db9-5b8f6cf7a825/MyProject/pyjs/py/wbs/wbs_schema.py',
+    #         '-o', '/media/denis/dd19b13d-bd85-46bb-8db9-5b8f6cf7a825/MyProject/vue_test/vts2/src/wbs/wbs_type.ts'
     #     ]
     # )
